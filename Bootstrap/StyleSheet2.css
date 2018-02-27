@@ -1,0 +1,252 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.jumbotron {
+    background-image: url("https://www.smak.co.za/images/bg.jpg");
+    background-size: 100% 100%;
+    color: #b0bec5;
+    margin-bottom: 0;
+}
+
+div.col {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandcamp {
+    text-decoration: none;
+    color: ghostwhite;
+    border: 3px solid white;
+    transition: border 2s ease;
+}
+
+    .bandcamp:hover {
+        border: 4px inset gold;
+    }
+
+.container {
+    height: 100vh;
+    padding: 20%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Fredericka the Great', cursive;
+    color: ghostwhite;
+}
+
+.overlay {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+}
+
+.navbar-scroll {
+    background-color: rgba(0,123,255,0.4);
+    transition: background-color 0.5s;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        background-color: #007bff !important;
+    }
+}
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.parallax-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+}
+
+.lable-default {
+    color: papayawhip;
+}
+
+section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+    section.module p:last-child {
+        margin-bottom: 0;
+    }
+
+section.module.content {
+    padding: 40px 0;
+    background-color: rgba(207,216,220,0.5);
+}
+
+    section.module.content:last-child {
+        margin-bottom: 60px;
+    }
+
+section.module.parallax {
+    padding: 240px 0;
+    background-position: 0 0;
+}
+
+    section.module.parallax h1 {
+        color: #1e1e1e;
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px white;
+    }
+
+section.module.parallax-1 {
+    background-position: center;
+    background-image: url('Cover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.8)
+}
+
+section.background-parallax-1 {
+    background-image: url('Bubba.jpg');
+    background-attachment: fixed;
+}
+
+section.background-parallax-2 {
+    background-image: url('Mike.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section.background-parallax-3 {
+    background-image: url('Chris.png');
+    background-attachment: fixed;
+}
+
+
+section.background-parallax-4 {
+    background-image: url('Ben.png');
+    background-attachment: fixed;
+}
+
+
+div.parallax-container,
+div.parallax-container-fluid {
+    color: white;
+    padding: 5%;
+}
+
+
+
+section.module.parallax-2 {
+    background-image: url('VABanner.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.8);
+}
+
+section.module.parallax-3 {
+    background-image: url('Logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.8);
+}
+
+@media all and (min-width: 600px) {
+    section.module h2 {
+        font-size: 42px;
+    }
+
+    section.module p {
+        font-size: 20px;
+    }
+
+    section.module.parallax {
+        padding: 300px 0;
+    }
+
+        section.module.parallax h1 {
+            font-size: 96px;
+        }
+}
+
+@media all and (min-width: 960px) {
+    section.module.parallax h1 {
+        font-size: 160px;
+    }
+}
+/*footer*/
+.footer .container-fluid {
+    height: auto;
+}
+
+.smedia i{
+    color: white;
+    transition: color 2s ease, transform 2s ease;
+}
+
+.smedia i:hover{
+    color:darkred;
+    transform: translateY(-5px)
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+}
+
+footer .container-fluid a {
+    display: inline-block;
+    color: #ddd;
+    padding-left: 1em;
+}
+
+footer .container-fluid p {
+    display: inline-block;
+    color: #ddd;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+@media(max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
